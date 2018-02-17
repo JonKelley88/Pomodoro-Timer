@@ -1,0 +1,109 @@
+body {
+  background-color: #d2d0ba !important;
+}
+
+h1 {
+  font-family: "Fjalla One";
+  font-size: 4em;
+  margin-top: 30px;
+  color: #45555d;
+}
+
+.button {
+  background-color: #45555d;
+  height: 30px;
+  width: 125px;
+  color: #d2d0ba;
+  font-size: 1.1em;
+  line-height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.fa {
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.fa-minus-circle {
+  float: left;
+  margin-left: 20px;
+}
+
+.fa-plus-circle {
+  float: right;
+  margin-right: 20px;
+}
+
+.pomo {
+  width: 100%;
+  height: 10px;
+  background-color: grey;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#main {
+  width: 60%;
+  margin: 0 auto 0 auto;
+}
+
+#progress {
+  background-color: #b6be9c;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+#progressBar {
+  width: 95%;
+  background-color: grey;
+  margin: 10px auto 10px auto;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+#progressAmount {
+  height: 30px;
+  width: 0%;
+  background-color: green;
+}
+
+#reset {
+  user-select: none;
+}
+
+#timer {
+  width: 800px;
+  height: 300px;
+  border: solid 4px #45555d;
+  border-radius: 40px;
+  margin: 0 auto 30px auto;
+}
+
+#timeControl {
+  background-color: #b6be9c;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  color: #45555d;
+  font-size: 1.1em;
+}
+
+#timeDisplay {
+  font-family: "Fjalla One";
+  font-size: 5.5em;
+  color: #45555d;
+}
+
+#timerType {
+  font-family: "Fjalla One";
+  font-size: 1.5em;
+  color: #45555d;
+  margin-top: 10px;
+}
+
+#topText {
+  font-weight: 100;
+  font-size: 1.2em;
+  width: 60%;
+  margin: 0 auto 20px auto;
+}

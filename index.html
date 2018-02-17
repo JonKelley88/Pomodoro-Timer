@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Pomodoro</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+	<script src="script.js">
+	</script>
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+	<div id="main">
+		<div>
+			<h1 class="text-center">Pomodoro Timer</h1>
+		</div>
+		<div>
+			<p class="text-center" id="topText">The Pomodoro Technique is a method of time management that uses a timer to break down work into intervals (<i>Pomodoros</i>). Each Pomodoro is separated by a short break until four Pomodoros have been completed. After the fourth Pomodoro, a longer break is taken before returning to work.</p>
+		</div>
+		<div class="container">
+			<div class="row" id="timer">
+				<div class="col-2 d-flex flex-column justify-content-around text-center" id="timeControl">
+					<div>
+						Work Length<br>
+						<i class="fa fa-minus-circle"></i><span id="work">25</span><i class="fa fa-plus-circle"></i>
+					</div>
+					<div>
+						Break Length<br>
+						<i class="fa fa-minus-circle"></i><span id="break">5</span><i class="fa fa-plus-circle"></i>
+					</div>
+					<div>
+						Long Break<br>
+						<i class="fa fa-minus-circle"></i><span id="longBreak">20</span><i class="fa fa-plus-circle"></i>
+					</div>
+				</div>
+				<div class="col-8" id="mainBlock">
+					<div class="text-center" id="timerType">
+						Work Time
+					</div>
+					<div id="progressBar">
+						<div id="progressAmount"></div>
+					</div>
+					<div class="text-center" id="timeDisplay">
+						25:00
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-6 text-center">
+								<div class="container button" id="start">
+									Start
+								</div>
+							</div>
+							<div class="col-6 text-center">
+								<div class="container button" id="reset">
+									Reset
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-2 d-flex flex-column justify-content-around text-center" id="progress">
+					<div class="mt-4 pomo" title="Pomodoro 1"></div>
+					<div class="pomo" title="Short Break 1"></div>
+					<div class="pomo" title="Pomodoro 2"></div>
+					<div class="pomo" title="Short Break 2"></div>
+					<div class="pomo" title="Pomodoro 3"></div>
+					<div class="pomo" title="Short Break 3"></div>
+					<div class="pomo" title="Pomodoro 4"></div>
+					<div class="mb-4 pomo" title="Long Break"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
